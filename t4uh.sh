@@ -1,5 +1,4 @@
-apt update && apt -y upgrade
-
+apt update
 mkdir t4uh-setup
 cd t4uh-setup
 
