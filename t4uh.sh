@@ -20,12 +20,12 @@ apt -y install $(cat /add-packages/add-packages-list.txt | xargs)
 # If your USB adapter stops working one day your going to have to restore a backup
 # and wait till the dev updates the t4uh drivers for the newer kernel.
 # -- You do backup you Virtual Machine before running this don't you. --
-apt -y install linux-headers-`uname -r`
+#apt -y install linux-headers-`uname -r`
 
 # Install the t4uh driver
-git clone -b v5.2.20 https://github.com/aircrack-ng/rtl8812au.git 1>/dev/null && echo "OK t4uh driver"  || echo "t4uh driver"
-bash /rtl8812au/dkms-install.sh
-ls
+#git clone -b v5.2.20 https://github.com/aircrack-ng/rtl8812au.git 1>/dev/null && echo "OK t4uh driver"  || echo "t4uh driver"
+#bash /rtl8812au/dkms-install.sh
+#ls
 # Wifite is broken, It needs to be reinstalled
 git clone https://github.com/derv82/wifite2.git 1>/dev/null && echo "OK Wifite Downloaded"  || echo "Wifite Failed"
 python /wifite2/setup.py install
