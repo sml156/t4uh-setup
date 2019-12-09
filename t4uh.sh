@@ -31,6 +31,11 @@ git clone https://github.com/derv82/wifite2.git 1>/dev/null && echo "OK Wifite D
 python /wifite2/setup.py install
 ls
 
+git clone https://github.com/ZerBea/hcxdumptool.git
+cd hcxdumptool
+make
+make install
+
 echo " ##########################################################  "
 echo " You are going To Reboot in 10 sec's  "
 echo " ##########################################################  "
