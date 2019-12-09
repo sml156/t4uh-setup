@@ -1,4 +1,4 @@
-
+https://raw.githubusercontent.com/sml156/t4uh-setup/master/update.txt
 
 apt update && apt upgrade
 echo "clean up some crap"
