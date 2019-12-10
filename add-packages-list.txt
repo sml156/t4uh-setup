@@ -3,6 +3,7 @@ bc
 beef-xss
 bettercap
 dkms
+dsniff
 hcxdumptool
 hcxtools
 hostapd
